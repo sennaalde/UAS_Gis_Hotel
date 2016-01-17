@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>title</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<script src="lib/jquery-1.9.1.min.js"></script>
+		<script src="lib/jquery-migrate-1.1.1.min.js"></script>
+		<script src="lib/functions.js"></script>
+		<script src="lib/jquery.mobile-1.1.0.js"></script>
+		<link href="src/css/jquery.mobile.structure-1.1.0.css" rel="stylesheet"
+		/>
+		<link href="src/css/jquery.mobile.theme-1.1.0.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div data-role="page" id="page1">
+			<div data-role="header">
+				<h1>GIS Hotel Kota Malang</h1>
+			</div>
+			<div data-role="content" align="center">
+				<div id="map-canvas"></div>
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li>
+							<a data-role="button" href="#page1" data-transition="turn" data-icon="home">Home</a>
+						</li>
+						<li>
+							<a data-role="button" href="#page2" data-transition="turn" data-icon="grid">Daftar Hotel</a>
+						</li>
+						<li>
+							<a data-role="button" href="#page3" data-transition="fade" data-icon="info">Info</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div data-role="page" id="page2">
+			<div data-role="header">
+				<h1>GIS Hotel Kota Malang</h1>
+				<a data-role="button" data-rel="back" data-icon="arrow-l">Back</a>
+			</div>
+			<div data-role="content">
+				<ul data-role="listview" id="daftarhotel">
+					
+				</ul>
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li>
+							<a data-role="button" href="#page1" data-transition="turn" data-icon="home">Home</a>
+						</li>
+						<li>
+							<a data-role="button" href="#page3" data-transition="fade" data-icon="info">Info</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div data-role="dialog" id="page3">
+			<div data-role="header">
+				<h1>Info</h1>
+			</div>
+			<div data-role="content">
+				<div class="ui-grid-a">
+					<div class="ui-block-a">
+						<span>Nama :</span>
+					</div>
+					<div class="ui-block-b">
+						<span>Senna Alde Setiawan</span>
+					</div>
+				</div>
+				<div class="ui-grid-a">
+					<div class="ui-block-a">
+						<span>NIM:</span>
+					</div>
+					<div class="ui-block-b">
+						<span>1112053</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

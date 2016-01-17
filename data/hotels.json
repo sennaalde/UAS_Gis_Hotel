@@ -1,0 +1,106 @@
+[{
+	"lat":-7.9773296,
+	"lng":112.6328767,
+	"image":"image/hotel-tugu-malang.jpg",
+	"name":"Tugu Hotel",
+	"content":"<b>Tugu Hotel</b><br>Jl. Tugu No.3 Malang<br>Bintang 5"
+},
+{
+	"lat":-7.958475,
+	"lng":112.6367202,
+	"image":"image/hotel santika.jpg",
+	"name":"Santika Premiere Hotel",
+	"content":"<b>Santika Premiere Hotel</b><br>Jl. Letjen Sutoyo No. 79<br>Bintang 4"
+},
+{
+	"lat":-7.9730208,
+	"lng":112.6301987,
+	"image":"image/kartika graha.jpg",
+	"name":"Kartika Graha Hotel",
+	"content":"<b>Kartika Graha Hotel</b><br>Jl. Jaksa Agung Suprapto No. 17<br>Bintang 3"
+},
+{
+	"lat":-7.9258237,
+	"lng":112.6449439,
+	"image":"image/harris.jpg",
+	"name":"HARRIS Hotel & Conventions Malang",
+	"content":"<b>HARRIS Hotel & Conventions Malang</b><br>Jl. Jend A. Yani Utara Perum Riverside C-1., Malang Center, Malang<br>Bintang 4"
+},
+{
+	"lat":-7.9679473,
+	"lng":112.6354401,
+	"image":"image/best-western-oj-hotel.jpg",
+	"name":"Best Western OJ Hotel",
+	"content":"<b>Best Western OJ Hotel</b><br>Jalan Dr. Cipto No.11, Malang Center, Malang<br>Bintang 4"
+},
+{
+	"lat":-7.9356774,
+	"lng":112.6512471,
+	"image":"image/horison.jpg",
+	"name":"Horison Ultima Malang Hotel",
+	"content":"<b>Horison Ultima Malang Hotel</b><br>Green Boulevard No. 2 Kota Araya, Malang Center, Malang<br>Bintang 4"
+},
+{
+	"lat":-7.94947,
+	"lng":112.6392142,
+	"image":"image/atria.jpg",
+	"name":"Atria Hotel and Conference Malang",
+	"content":"<b>Atria Hotel and Conference Malang</b><br>Jl. Letjen S.Parman No. 87 – 89, Malang Center, Malang<br>Bintang 4"
+},
+{
+	"lat":-7.9772711,
+	"lng":112.6242163,
+	"image":"image/aria.jpg",
+	"name":"Aria Gajayana Hotel",
+	"content":"<b>Aria Gajayana Hotel</b><br>Komplek Mal Olympic Garden,Jl. Kawi No. 24<br>Bintang 4"
+},
+{
+	"lat":-7.9625932,
+	"lng":112.6361414,
+	"image":"image/savana.jpg",
+	"name":"Savana Hotel & Convention (Savana Hotel)",
+	"content":"<b>Savana Hotel & Convention (Savana Hotel)</b><br>Jalan Letnan Jenderal Sutoyo 32-34,Rampal Celaket,Klojen<br>Bintang 4"
+},
+{
+	"lat":-7.9554846,
+	"lng":112.6186659,
+	"image":"image/swiss.jpg",
+	"name":"Swiss-Belinn Malang",
+	"content":"<b>Swiss-Belinn Malang</b><br>Jalan Veteran No.8A<br>Bintang 3"
+},
+{
+	"lat":-7.949269,
+	"lng":112.6162262,
+	"image":"image/everyday.jpg",
+	"name":"Everyday Smart Hotel",
+	"content":"<b>Everyday Smart Hotel</b><br>Jl. Soekarno Hatta No.2<br>Bintang 2"
+},
+{
+	"lat":-7.960701,
+	"lng":112.6363232,
+	"image":"image/amaris.jpg",
+	"name":"Amaris Hotel Malang",
+	"content":"<b>Amaris Hotel Malang</b><br>Jalan Letjend. Sutoyo No. 39<br>Bintang 2"
+},
+{
+	"lat":-7.952372,
+	"lng":112.6384074,
+	"image":"image/ibis.jpg",
+	"name":"Ibis Styles Malang",
+	"content":"<b>Ibis Styles Malang</b><br>Jalan S Parman 45, Blimbing<br>Bintang 4"
+},
+{
+	"lat":-7.981135,
+	"lng":112.6152572,
+	"image":"image/ijen.jpg",
+	"name":"Ijen Suites Resort & Convention",
+	"content":"<b>Ijen Suites Resort & Convention</b><br>Jl IJEN NIRWANA RAYA BLOK A NO 16, MALANG<br>Bintang 4"
+},
+{
+	"lat":-7.9657857,
+	"lng":112.6336193,
+	"image":"image/maxone.jpg",
+	"name":"MaxOne Hotels",
+	"content":"<b>MaxOne Hotels</b><br>Jl. Jaksa Agung Suprapto 75A Malang<br>Bintang 3"
+}
+]

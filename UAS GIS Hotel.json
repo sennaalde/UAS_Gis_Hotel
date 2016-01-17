@@ -1,0 +1,315 @@
+{
+	"type": "Design",
+	"zone": null,
+	"children": [
+		{
+			"type": "Page",
+			"properties": {
+				"id": "page1"
+			},
+			"children": [
+				{
+					"type": "Header",
+					"zone": "top",
+					"properties": {
+						"text": "GIS Hotel Kota Malang"
+					}
+				}, {
+					"type": "Content",
+					"zone": "content",
+					"children": [
+						{
+							"type": "Text",
+							"properties": {
+								"type": "h2",
+								"text": "GIS Hotel Kota Malang"
+							}
+						}, {
+							"type": "Text",
+							"properties": {
+								"text": "Aplikasi ini adalah aplikas yang menunjukkan lokasi Hotel yang berada di kota Malang "
+							}
+						}, {
+							"type": "List",
+							"children": [
+								{
+									"type": "ListButton",
+									"properties": {
+										"text": "Titik Lokasi Hotel"
+									}
+								}, {
+									"type": "ListButton",
+									"properties": {
+										"text": "Daftar Hotel",
+										"target": "#page2"
+									}
+								}
+							]
+						}
+					]
+				}, {
+					"type": "Footer",
+					"zone": "bottom",
+					"properties": {
+						"position": "fixed",
+						"text": ""
+					},
+					"children": [
+						{
+							"type": "Navbar",
+							"children": [
+								{
+									"type": "Button",
+									"properties": {
+										"text": "Home",
+										"target": "#page1",
+										"transition": "turn",
+										"icon": "home"
+									}
+								}, {
+									"type": "Button",
+									"properties": {
+										"text": "Info",
+										"target": "#page3",
+										"transition": "fade",
+										"icon": "info"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}, {
+			"type": "Page",
+			"properties": {
+				"id": "page2"
+			},
+			"children": [
+				{
+					"type": "Header",
+					"zone": "top",
+					"properties": {
+						"text": "GIS Hotel Kota Malang"
+					},
+					"children": [
+						{
+							"type": "Button",
+							"zone": "left",
+							"properties": {
+								"text": "Back",
+								"target": "previous page",
+								"icon": "arrow-l"
+							}
+						}
+					]
+				}, {
+					"type": "Content",
+					"zone": "content",
+					"children": [
+						{
+							"type": "ButtonGroup",
+							"children": [
+								{
+									"type": "Button",
+									"properties": {
+										"text": "Tugu Hotel"
+									}
+								}, {
+									"type": "Button",
+									"properties": {
+										"text": "Santika Premiere Hotel"
+									}
+								}, {
+									"type": "Button",
+									"properties": {
+										"text": "Kartika Graha Hotel"
+									}
+								}, {
+									"type": "Button",
+									"properties": {
+										"text": "HARRIS Hotel & Conventions Malang"
+									}
+								}, {
+									"type": "Button",
+									"properties": {
+										"text": "Best Western OJ Hotel"
+									}
+								}, {
+									"type": "Button",
+									"properties": {
+										"text": "Horison Ultima Malang Hotel"
+									}
+								}, {
+									"type": "Button",
+									"properties": {
+										"text": "Atria Hotel and Conference Malang"
+									}
+								}, {
+									"type": "Button",
+									"properties": {
+										"text": "Aria Gajayana Hotel"
+									}
+								}, {
+									"type": "Button",
+									"properties": {
+										"text": "Savana Hotel & Convention (Savana Hotel)"
+									}
+								}, {
+									"type": "Button",
+									"properties": {
+										"text": "Swiss-Belinn Malang"
+									}
+								}, {
+									"type": "Button",
+									"properties": {
+										"text": "Everyday Smart Hotel"
+									}
+								}, {
+									"type": "Button",
+									"properties": {
+										"text": "Amaris Hotel Malang"
+									}
+								}, {
+									"type": "Button",
+									"properties": {
+										"text": "Ibis Styles Malang"
+									}
+								}, {
+									"type": "Button",
+									"properties": {
+										"text": "Ijen Suites Resort & Convention"
+									}
+								}, {
+									"type": "Button",
+									"properties": {
+										"text": "MaxOne Hotels"
+									}
+								}
+							]
+						}
+					]
+				}, {
+					"type": "Footer",
+					"zone": "bottom",
+					"properties": {
+						"text": "",
+						"position": "fixed"
+					},
+					"children": [
+						{
+							"type": "Navbar",
+							"children": [
+								{
+									"type": "Button",
+									"properties": {
+										"text": "Home",
+										"target": "#page1",
+										"transition": "turn",
+										"icon": "home"
+									}
+								}, {
+									"type": "Button",
+									"properties": {
+										"text": "Info",
+										"target": "#page3",
+										"transition": "fade",
+										"icon": "info"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}, {
+			"type": "Page",
+			"properties": {
+				"dialog": true,
+				"id": "page3"
+			},
+			"children": [
+				{
+					"type": "Header",
+					"zone": "top",
+					"properties": {
+						"text": "Info"
+					}
+				}, {
+					"type": "Content",
+					"zone": "content",
+					"children": [
+						{
+							"type": "Grid",
+							"children": [
+								{
+									"type": "Block",
+									"children": [
+										{
+											"type": "Text",
+											"properties": {
+												"text": "Nama :"
+											}
+										}
+									]
+								}, {
+									"type": "Block",
+									"properties": {
+										"subtype": "b"
+									},
+									"children": [
+										{
+											"type": "Text",
+											"properties": {
+												"text": "Senna Alde Setiawan"
+											}
+										}
+									]
+								}
+							]
+						}, {
+							"type": "Grid",
+							"children": [
+								{
+									"type": "Block",
+									"children": [
+										{
+											"type": "Text",
+											"properties": {
+												"text": "NIM:"
+											}
+										}
+									]
+								}, {
+									"type": "Block",
+									"properties": {
+										"subtype": "b"
+									},
+									"children": [
+										{
+											"type": "Text",
+											"properties": {
+												"text": "1112053"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"pInfo": {
+		"name": "UAS GIS Hotel",
+		"theme": "Default",
+		"accessDate": 1453044060023,
+		"device": {
+			"name": "Phones",
+			"screenWidth": 320,
+			"screenHeight": 480,
+			"rotating": false
+		}
+	}
+}
